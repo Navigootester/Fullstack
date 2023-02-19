@@ -1,5 +1,5 @@
-const Sequelize = require('sequelize')
-const db = require('../config/database')
+const Sequelize = require('sequelize');
+const db = require('../config/database');
 
 const Fullstack = db.define('fullstack', {
     username: {
@@ -9,5 +9,5 @@ const Fullstack = db.define('fullstack', {
         type: Sequelize.STRING
     }
 
-})
+});
 module.exports = Fullstack;
