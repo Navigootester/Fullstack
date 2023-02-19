@@ -9,5 +9,5 @@ const Fullstack = db.define('fullstack', {
         type: Sequelize.STRING
     }
 
-});
+})
 module.exports = Fullstack;
